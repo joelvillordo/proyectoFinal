@@ -1,0 +1,29 @@
+$azul: #1a2250;
+$gris: #9cacbf;
+$azul_oscuro: #0a1417;
+$verde_azulado: #032e42;
+$width: 100%;
+$letra: 2.5em;
+$letra_color: black;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+/*Reseteo CSS*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Tipografia de Google Fonts*/
+html{
+	font-size: 0.75em;
+	font-family: 'Merriweather', serif;
+}
+
+@import "header";
+@import "nav";
+@import "index";
+/*Aca deberia importar el resto de las secciones*/
+
+
+
+@import "footer";

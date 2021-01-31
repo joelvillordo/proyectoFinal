@@ -1,0 +1,31 @@
+.navbar-custom{
+	background: $azul !important;
+	margin: 0 auto;
+}
+
+
+.navMenu {
+	background: $azul;
+	width: $width;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	ul{
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		li{			
+			margin-left: 50px;
+			padding: 5px;
+			transition: transform 2s;
+			font-size: 1.75em;
+		}
+		li:hover{
+			transform: scale(1.25, 1.5);
+		}
+	}
+	.navbar-toggler{
+		color: white;
+	}
+}

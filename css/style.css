@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+/*Reseteo CSS*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Tipografia de Google Fonts*/
+html {
+  font-size: 0.75em;
+  font-family: 'Merriweather', serif; }
+
+header {
+  background-color: #1a2250;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header img {
+    height: 398px; }
+
+.mobile {
+  display: none; }
+
+.navbar-custom {
+  background: #1a2250 !important;
+  margin: 0 auto; }
+
+.navMenu {
+  background: #1a2250;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .navMenu ul a {
+    color: white;
+    text-decoration: none; }
+  .navMenu ul li {
+    margin-left: 50px;
+    padding: 5px;
+    transition: transform 2s;
+    font-size: 1.75em; }
+  .navMenu ul li:hover {
+    transform: scale(1.25, 1.5); }
+  .navMenu .navbar-toggler {
+    color: white; }
+
+.info_estudio {
+  height: 500px;
+  max-height: 40rem;
+  background-color: #9cacbf;
+  position: relative;
+  padding: 175px; }
+  .info_estudio h1 {
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    font-size: 2.5em; }
+  .info_estudio p {
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+    font-size: 1.5em; }
+  .info_estudio h1, .info_estudio p {
+    color: black;
+    font-weight: bold;
+    text-align: center; }
+  .info_estudio img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    opacity: 0.4;
+    max-height: 40rem;
+    z-index: 1;
+    transition: 1.5s; }
+
+.ubicacion {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 50px;
+  height: 40rem; }
+  .ubicacion h2 {
+    font-size: 4em; }
+  .ubicacion p {
+    font-size: 2em; }
+  .ubicacion img {
+    height: 70%;
+    transition: 0.75s;
+    opacity: 0.2; }
+  .ubicacion img:hover {
+    height: 80%;
+    opacity: 1; }
+
+.turnos {
+  background-color: #032e42;
+  color: white;
+  height: 40rem;
+  text-align: center;
+  padding: 20px; }
+  .turnos h2 {
+    font-size: 3em; }
+  .turnos form {
+    width: 66%;
+    font-size: 1.5em;
+    margin: 0 auto; }
+
+button p {
+  font-size: 1.5em; }
+
+/*Aca deberia importar el resto de las secciones*/
+footer {
+  background-color: #0a1417;
+  height: 15rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  padding: 3em; }
+  footer .socialmedia img {
+    margin-left: 1em;
+    width: 75px;
+    margin: 10px;
+    transition: 0.5s; }
+  footer .socialmedia img:hover {
+    width: 80px; }

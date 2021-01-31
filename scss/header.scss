@@ -1,0 +1,15 @@
+$altura_logo: 597px/1.5;
+
+header{
+	background-color: $azul;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	img{
+  		height: $altura_logo;
+  	}
+}
+
+.mobile{
+	display: none;
+}

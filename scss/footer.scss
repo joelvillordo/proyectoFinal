@@ -1,0 +1,18 @@
+footer{
+	background-color: $azul_oscuro;
+	height: 15rem;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	padding: 3em;
+	.socialmedia img{
+		margin-left: 1em;
+		width: 75px;
+		margin: 10px;
+		transition: 0.5s;
+	}
+	.socialmedia img:hover{
+		width: 80px;
+	}
+}

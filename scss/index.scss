@@ -1,0 +1,84 @@
+$altura_info_estudio: 600px-100px;
+
+.info_estudio{
+	height: $altura_info_estudio;
+	max-height: 40rem;
+	background-color: $gris;
+	position: relative;
+	padding: 175px;
+	h1{
+		position:relative;
+		z-index: 2;
+		border: 1px solid black;
+		font-size: $letra;
+	}
+	p{
+		position: relative;
+		z-index: 2;
+		margin-top: 10px;
+		font-size: 1.5em;
+	}
+	h1, p{
+		color: $letra_color;
+		font-weight: bold;		
+		text-align: center;
+	}
+	img{
+		position: absolute;
+		left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+		opacity: 0.4;
+		max-height: 40rem;
+		z-index: 1;
+		transition: 1.5s;
+		
+	}
+}
+
+.ubicacion{
+	width: $width;
+	background-color: white;
+	text-align: center;
+	color: $letra_color;
+	padding: 50px;
+	height: 40rem;
+	h2{
+		font-size: 4em;
+	}
+	p{
+		font-size: 2em;
+	}
+	img{
+		height: 70%;
+		transition: 0.75s;
+		opacity: 0.2;
+	}
+	img:hover{
+		height: 80%;
+		opacity: 1;
+	}
+}
+
+.turnos{
+	background-color: $verde_azulado;
+	color: white;
+	height: 40rem;
+	text-align: center;
+	padding: 20px;
+	h2{
+		font-size: 3em;
+	}
+	form{
+		width: 66%;
+		font-size: 1.5em;
+		margin: 0 auto;
+	}
+}
+
+button{
+	p{
+		font-size: 1.5em;
+	}
+}
