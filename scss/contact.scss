@@ -1,0 +1,22 @@
+.contacto{
+	padding: 50px;
+	font-size: 1.5em;
+	color: white;
+	background-color: $verde_azulado;
+	text-align: center;
+	h2{
+		font-size: $letra/1.25;
+	}
+	li{
+		color: white;
+		list-style: none;
+	}
+	form{
+		width: 66%;
+		margin: 0 auto;
+	}
+}
+
+.modal-dialog{
+	color: black;
+}

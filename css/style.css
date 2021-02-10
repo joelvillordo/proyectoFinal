@@ -260,7 +260,24 @@ button p {
 .valoracion {
   text-align: center; }
 
-/*Aca deberia importar el resto de las secciones*/
+.contacto {
+  padding: 50px;
+  font-size: 1.5em;
+  color: white;
+  background-color: #032e42;
+  text-align: center; }
+  .contacto h2 {
+    font-size: 2em; }
+  .contacto li {
+    color: white;
+    list-style: none; }
+  .contacto form {
+    width: 66%;
+    margin: 0 auto; }
+
+.modal-dialog {
+  color: black; }
+
 footer {
   background-color: #0a1417;
   height: 15rem;
@@ -276,3 +293,24 @@ footer {
     transition: 0.5s; }
   footer .socialmedia img:hover {
     width: 80px; }
+
+@media (max-width: 576px) {
+  main {
+    padding: 0; }
+  section {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.75em; }
+  .mobile {
+    display: block;
+    background-position: center;
+    background-color: #1a2250; }
+  .mobile img {
+    margin-left: 4.5em; }
+  .pc {
+    display: none; }
+  .ubicacion {
+    background-image: url("img/mapa.png");
+    background-position: center; }
+  .carousel {
+    width: 100%; } }
