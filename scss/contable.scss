@@ -1,0 +1,53 @@
+$altura_seccion: 400px;
+
+#servi_conta{
+	background-color: white;
+	color: $letra_color;
+	text-align: center;
+	height: $altura_seccion;
+	padding: 40px;
+	h2{
+		font-size: 4em;
+	}
+	ul{
+		list-style-position: inside;
+	li{
+		color: $letra_color;
+		font-size: $letra / 1.5;
+		list-style: none;
+		}
+	li:hover{
+		font-size: $letra;
+	}
+	}
+}
+
+#equipoConta{
+	background-color: $gris;
+	text-align: center;
+	height: $altura_seccion *1.30;
+	padding: 40px;
+	h2{
+		font-size: 4em;
+		margin-bottom: 25px;	
+	}
+	.carousel{
+		width: 66%;
+		margin: 0 auto;
+		img{
+			height: 350px;
+			width: 300px !important;
+			margin: 0 auto !important;
+			opacity: 0.5;
+		}
+		div{
+			color: white;
+		}
+		h5{
+			font-size: 3em;
+		}
+		p{
+			font-size: 1.5em;
+		}
+	}
+}
