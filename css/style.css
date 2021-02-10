@@ -305,12 +305,27 @@ footer {
     display: block;
     background-position: center;
     background-color: #1a2250; }
-  .mobile img {
-    margin-left: 4.5em; }
   .pc {
     display: none; }
   .ubicacion {
     background-image: url("img/mapa.png");
     background-position: center; }
   .carousel {
-    width: 100%; } }
+    width: 100% !important; }
+  /*index*/
+  .info_estudio {
+    padding: 0px;
+    max-height: 25rem; }
+    .info_estudio img {
+      width: 100%; }
+    .info_estudio h1 {
+      z-index: 1; }
+    .info_estudio p {
+      z-index: 1; }
+  .ubicacion img {
+    width: 100%;
+    opacity: 1; }
+  .history {
+    margin: 0;
+    text-align: center;
+    padding: 0px; } }

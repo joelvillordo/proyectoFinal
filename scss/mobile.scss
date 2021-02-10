@@ -1,0 +1,56 @@
+@media (max-width: 576px){
+	main{
+		padding: 0;
+	}
+	section{
+		width: 100%;
+		margin: 0 auto;
+		font-size: 0.75em;
+	}
+	.mobile{
+		display: block;
+		background-position: center;
+		background-color: #1a2250;
+	}
+
+	.pc{
+		display: none;
+	}
+
+	.ubicacion{
+		background-image: url("img/mapa.png");
+		background-position: center;
+	}
+
+	.carousel{
+		width: 100% !important;
+	}
+	/*index*/
+	.info_estudio{
+		padding: 0px;
+		max-height: 25rem;
+		img{
+			width: 100%;
+		}
+		h1{
+			z-index: 1;
+		}
+		p{
+			z-index: 1;
+		}
+	}
+
+	.ubicacion{
+		img{
+			width: 100%;
+			opacity: 1;
+		}
+	}
+
+	.history{
+		margin: 0;
+		text-align: center;
+		padding: 0px;
+	}
+	
+}
