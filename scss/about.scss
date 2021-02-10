@@ -1,0 +1,88 @@
+/*Secciones de About*/
+$height: 500px;
+
+.history{
+	height: $height+200px;
+	padding: 50px;
+	background-color: white;
+	display: grid;
+	grid-template-areas:
+	". titulo ."
+	"historia1 historia2 historia3"
+	"parrafo parrafo parrafo";
+	grid-template-columns: 30%;
+	justify-items: center;
+	align-items: end;
+	h2{
+		grid-area: titulo;
+		margin: 0 auto;
+		font-size: $letra*1.5;
+	}
+	p{
+		grid-area: parrafo;
+		text-align: center;
+		margin: 15px;
+		font-size: $letra/1.5;
+	}
+	.fotoHistoria{
+		width: 60%;
+		display: inline;
+		transition: 0.75s;
+	}
+}
+
+.fotoHistoria:hover{
+		width: 75%;
+}
+
+.historia1{
+	grid-area: historia1;
+}
+
+.historia2{
+	grid-area: historia2;
+}
+
+.historia3{
+	grid-area: historia3;
+}
+
+.clientes{	
+	height: $height;
+	background-color: $gris;
+	display: grid;
+	grid-template-areas:
+	". opinion ."
+	"nombre1 nombre2 nombre3";
+	justify-items: center;
+	grid-template-columns: 30%;
+	h2{
+		grid-area: opinion;
+		margin: 15px auto;
+	}
+	img{
+		height: 300px;
+		width: auto;
+	}
+}
+
+.cl1{
+	grid-area: nombre1;
+}
+
+.cl2{
+	grid-area: nombre2;
+}
+
+.cl3{
+	grid-area: nombre3;
+}
+
+.cliente{
+	width: 10em;
+	transition: 0.75s;
+}
+
+.valoracion{
+	text-align: center;
+}
