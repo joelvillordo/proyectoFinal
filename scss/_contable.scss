@@ -23,11 +23,12 @@ $altura_seccion: 400px;
 }
 
 #equipoConta{
-	background-color: $gris;
+	background-color: $azul;
 	text-align: center;
 	height: $altura_seccion *1.30;
 	padding: 40px;
 	h2{
+		color: white;
 		font-size: 4em;
 		margin-bottom: 25px;	
 	}

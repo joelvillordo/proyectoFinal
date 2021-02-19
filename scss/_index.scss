@@ -3,7 +3,7 @@ $altura_info_estudio: 600px-100px;
 .info_estudio{
 	height: $altura_info_estudio;
 	max-height: 40rem;
-	background-color: $gris;
+	background-color: white;
 	position: relative;
 	padding: 175px;
 	h1{
@@ -39,9 +39,9 @@ $altura_info_estudio: 600px-100px;
 
 .ubicacion{
 	width: $width;
-	background-color: white;
+	background-color: $azul;
+	color: white;
 	text-align: center;
-	color: $letra_color;
 	padding: 50px;
 	height: 40rem;
 	h2{
@@ -62,8 +62,8 @@ $altura_info_estudio: 600px-100px;
 }
 
 .turnos{
-	background-color: $verde_azulado;
-	color: white;
+	background-color: white;
+	color: black;
 	height: 40rem;
 	text-align: center;
 	padding: 20px;
