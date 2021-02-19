@@ -13,9 +13,10 @@ header {
   background-color: #1a2250;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  height: 20rem; }
   header img {
-    height: 398px; }
+    height: 331.66667px; }
 
 .mobile {
   display: none; }
@@ -303,8 +304,14 @@ footer {
     font-size: 0.75em; }
   .mobile {
     display: block;
-    background-position: center;
-    background-color: #1a2250; }
+    background-color: #1a2250;
+    height: 10rem; }
+    .mobile img {
+      display: block;
+      height: 120px;
+      margin: 0 auto; }
+  .navMenu {
+    font-size: 0.75em; }
   .pc {
     display: none; }
   .ubicacion {

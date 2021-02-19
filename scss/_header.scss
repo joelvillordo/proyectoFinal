@@ -1,10 +1,11 @@
-$altura_logo: 597px/1.5;
+$altura_logo: 597px/1.80;
 
 header{
 	background-color: $azul;
 	display: flex;
   	justify-content: center;
   	align-items: center;
+  	height: 20rem;
   	img{
   		height: $altura_logo;
   	}

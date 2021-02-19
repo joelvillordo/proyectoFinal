@@ -9,8 +9,17 @@
 	}
 	.mobile{
 		display: block;
-		background-position: center;
 		background-color: #1a2250;
+		height: 10rem;
+		img{
+			display: block;
+			height: 120px;
+			margin: 0 auto;
+		}		
+	}
+
+	.navMenu{
+		font-size: 0.75em;
 	}
 
 	.pc{
