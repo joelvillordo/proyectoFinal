@@ -2,8 +2,7 @@
 $height: 500px;
 
 .history{
-	height: $height+200px;
-	padding: 50px;
+	height: $height+100px;
 	background-color: white;
 	display: grid;
 	grid-template-areas:
@@ -50,19 +49,22 @@ $height: 500px;
 .clientes{	
 	height: $height;
 	background-color: $azul;
+	padding: 10px;
 	color: white;
 	display: grid;
 	grid-template-areas:
-	". opinion ."
+	"opinion opinion opininon"
 	"nombre1 nombre2 nombre3";
 	justify-items: center;
-	grid-template-columns: 30%;
+	grid-template-columns: 33.33%;
 	h2{
 		grid-area: opinion;
-		margin: 15px auto;
+		width: 100%;
+		margin: 0 auto;
+		font-size: 3em;
 	}
 	img{
-		height: 300px;
+		height: 25rem;
 		width: auto;
 	}
 }
@@ -80,7 +82,7 @@ $height: 500px;
 }
 
 .cliente{
-	width: 10em;
+	width: auto;
 	transition: 0.75s;
 }
 
