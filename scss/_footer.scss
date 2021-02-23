@@ -11,8 +11,9 @@ footer{
 		width: 75px;
 		margin: 10px;
 		transition: 0.75s;
+		border-radius: 50%;
 	}
 	.socialmedia img:hover{
-		width: 102.5%;
+		border: 1px solid white;
 	}
 }

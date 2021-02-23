@@ -53,11 +53,9 @@ $altura_info_estudio: 600px-100px;
 	img{
 		height: 70%;
 		transition: 0.75s;
-		opacity: 0.2;
 	}
 	img:hover{
 		height: 80%;
-		opacity: 1;
 	}
 }
 
@@ -80,5 +78,18 @@ $altura_info_estudio: 600px-100px;
 button{
 	p{
 		font-size: 1.5em;
+	}
+}
+
+.mapa{
+	animation-duration: 3s;
+	animation-name: aparecer;
+}
+@keyframes aparecer {
+	from{
+		opacity: 0.1;
+	}
+	to{
+		opacity: 1;
 	}
 }

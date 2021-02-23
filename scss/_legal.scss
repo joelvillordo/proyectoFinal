@@ -8,13 +8,15 @@ $altura_seccion: 400px;
 	padding: 40px;
 	h2{
 		font-size: 4em;
+		border-bottom: 1px solid #FFAA00;
 	}
 	ul{
 		list-style-position: inside;
+		list-style-image: url("../img/check.png");
+		margin-top: 20px;
 	li{
 		color: $letra_color;
 		font-size: $letra / 1.5;
-		list-style: none;
 		}
 	li:hover{
 		font-size: $letra;

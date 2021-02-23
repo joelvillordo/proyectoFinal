@@ -40,7 +40,6 @@
 		max-height: 25rem;
 		img{
 			width: 100%;
-			display: none;
 		}
 		h1{
 			margin-top: 75px;
@@ -80,11 +79,13 @@
 	/*legal*/
 	#servi_juri{
 		height: 25rem;
+		overflow: hidden;
 	}
 
 	/*contable*/
 	#servi_conta{
 		height: 25rem;
+		overflow: hidden;
 	}
 	/*about*/
 	.history{
